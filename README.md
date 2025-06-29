@@ -24,7 +24,7 @@ ping [IP de la otra laptop]
 ### 4. Ejecutar el servidor
 
 - En la laptop que actuará como **controlador**, abre VS Code.
-- Abre el archivo `servidor_tcp.py` o `servidor_con_gui.py`.
+- Abre el archivo `servidor_tcp.py`.
 - Pulsa `Ctrl + Shift + ñ` para abrir la terminal de VS Code.
 - Ejecuta el script:
 
@@ -44,7 +44,7 @@ python cliente_tcp.py
 
 ### 6. Realizar pruebas
 
-- En el cliente, presiona **Enter** o el **botón** según el archivo usado.
+- En el cliente, presiona el **botón** según el archivo usado.
 - Observa en el servidor cómo se reciben los datos y se activa el actuador.
 - Comprueba si hay errores cuando se simula jitter (retardos aleatorios).
 
