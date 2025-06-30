@@ -1,6 +1,5 @@
 # cliente_con_jitter_monitor.py
 import socket
-import threading
 import tkinter as tk
 import time
 
@@ -16,6 +15,9 @@ umbral_ms = 80  # Umbral de tiempo máximo aceptable (latencia límite)
 def enviar_senal():
     global errores
     try:
+        # 🔒 Desactivar el botón temporalmente
+        boton_enviar.config(state="disabled")
+
         inicio = time.time()  # Tiempo de envío
         cliente.sendall(b"Sensor: Evento detectado")
         label_estado.config(text="SEÑAL ENVIADA", bg="orange")
@@ -34,12 +36,14 @@ def enviar_senal():
             estado = f"OK ({latencia_ms:.1f} ms)"
             label_estado.config(text=estado, bg="green")
 
-        ventana.after(2500, resetear_estado)
+        ventana.after(2500, resetear_estado)  # 🕒 Reactivar después de 2.5s
     except:
         label_estado.config(text="Error de conexión", bg="gray")
+        boton_enviar.config(state="normal")  # Asegura reactivación en caso de error
 
 def resetear_estado():
     label_estado.config(text="ESPERANDO ACCIÓN", bg="gray")
+    boton_enviar.config(state="normal")  # ✅ Reactivar el botón
 
 ventana = tk.Tk()
 ventana.title("Sensor con monitoreo de latencia")
