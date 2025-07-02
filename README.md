@@ -9,8 +9,8 @@
 - Rojas Bautista, Jimy Juniors
 - Torrejon Pacheco, Ivan Fernin
 
-CURSO: Redes de Computadoras  
-DOCENTE: Mg. Edwin Palomino Iriarte
+**CURSO:** Redes de Computadoras  
+**DOCENTE:** Mg. Edwin Palomino Iriarte
 
 ---
 
