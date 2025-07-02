@@ -40,8 +40,8 @@ def iniciar_servidor():
                 # Simular jitter antes de responder
 
                 jitter = random.uniform(0.01, 0.15)
-                # print(f"[Servidor] Simulando latencia de {jitter*1000:.1f} ms")
-                # time.sleep(jitter)
+                print(f"[Servidor] Simulando latencia de {jitter*1000:.1f} ms")
+                time.sleep(jitter)
                 
                 conn.sendall(b"Actuador activado\n")
 

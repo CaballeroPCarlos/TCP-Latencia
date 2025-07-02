@@ -3,7 +3,7 @@ import socket
 import tkinter as tk
 import time
 
-HOST = '192.168.0.105'  # Cambiar por IP real del servidor
+HOST = '192.168.1.82'  # Cambiar por IP real del servidor
 PORT = 65432
 
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

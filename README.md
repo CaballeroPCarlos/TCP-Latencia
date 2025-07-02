@@ -1,4 +1,15 @@
+### Grupo 2 - Integrantes
+
+- Caballero Peching, Carlos Arturo
+- Olivera Huapaya, Kevin William
+- Rojas Bautista, Jimy Juniors
+- Torrejon Pacheco, Ivan Fernin
+
+---
+
 ## ▶️ Cómo ejecutar la simulación paso a paso
+
+---
 
 ### 1. Preparación del entorno
 - Instala [Python 3](https://www.python.org/downloads/) en ambas laptops.
