@@ -1,9 +1,16 @@
+## Información general
+
+---
+
 ### Grupo 2 - Integrantes
 
 - Caballero Peching, Carlos Arturo
 - Olivera Huapaya, Kevin William
 - Rojas Bautista, Jimy Juniors
 - Torrejon Pacheco, Ivan Fernin
+
+CURSO: Redes de Computadoras
+DOCENTE: Mg. Edwin Palomino Iriarte
 
 ---
 
